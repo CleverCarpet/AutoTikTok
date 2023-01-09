@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager as CM
 
 print('=====================================================================================================')
-print('Heyy, you have to login manully on tiktok, so the bot will wait you 1 minute for loging in manually!')
+print('You have to login manully on tiktok, so the bot will wait you 1 minute for loging in manually!')
 print('=====================================================================================================')
 time.sleep(8)
 print('Running bot now, get ready and login manually...')
@@ -102,5 +102,5 @@ def upload(video_path):
 # ================================================================
 # Here is the path of the video that you want to upload in tiktok.
 # Plese edit the path because this is different to everyone.
-upload(r"C:\Users\redi\Videos\your-video-here.mov")
+upload(r"C:\Users\austi\Videos\edits\catvideo\balls.mp4")
 # ================================================================
